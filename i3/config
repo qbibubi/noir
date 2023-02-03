@@ -1,6 +1,6 @@
 
 # Font for window tles
-font pango:Hack mono 10
+font pango:Hack mono normal 8 
 
 # Mod key (set as meta key)
 set $mod Mod4
