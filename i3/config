@@ -9,9 +9,9 @@ set $mod Mod4
 exec --no-startup-id dex --autostart --environment i3
 
 # movement
-set $left h
-set $down j
-set $up k
+set $left  h
+set $down  j
+set $up    k
 set $right l
 
 #
