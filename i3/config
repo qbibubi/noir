@@ -20,7 +20,7 @@ set $right l
 
 bindsym $mod+c exec $TERM
 bindsym $mod+d exec --no-startup-id rofi -show
-bindsym $mod+q kill
+bindsym $mod+Shift+q kill
 
 # Move focus
 bindsym $mod+$left focus left
@@ -43,8 +43,8 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # Floating
-bindsym $mod+Space floating toggle
-bindsym $mod+Shift+Space focus mode_togglw
+bindsym $mod+space floating toggle
+bindsym $mod+Shift+space focus mode_togglw
 
 # Focus
 bindsym $mod+a focus parent
@@ -112,9 +112,9 @@ gaps inner 9
 gaps outer 3
 
 # Colors         border       background   text         indicator    child_border
-client.focused   #e5e5e5      #666666      #b2b2b2      #999999      #4c4c4c
-client.unfocused #666666      #666666      #b2b2b2      #999999      #4c4c4c
-client.urgent    #666666      #666666      #b2b2b2      #999999      #4c4c4c
+client.focused   #e5e5e5      #000000      #b2b2b2      #999999      #4c4c4c
+client.unfocused #666666      #000000      #b2b2b2      #999999      #4c4c4c
+client.urgent    #666666      #000000      #b2b2b2      #999999      #4c4c4c
 
 # Startup
 exec_always --no-startup-id nitrogen --restore
