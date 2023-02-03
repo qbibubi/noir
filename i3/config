@@ -18,7 +18,7 @@ set $right l
 # BINDS
 #
 
-bindsym $mod+c exec $TERM
+bindsym $mod+c exec alacritty
 bindsym $mod+d exec --no-startup-id rofi -show
 bindsym $mod+Shift+q kill
 
