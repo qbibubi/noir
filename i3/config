@@ -37,3 +37,8 @@ client.urgent    #666666      #000000      #b2b2b2      #999999      #4c4c4c
 
 # Settings
 focus_follows_mouse no
+
+assign [class="Alacritty"] 1
+assign [class="Firefox"] 2
+assign [class="Discord"] 3
+assign [class="SoundCloud"] 4
