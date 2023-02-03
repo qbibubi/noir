@@ -111,7 +111,7 @@ mode "resize" {
 gaps inner 9
 gaps outer 3
 
-# Colors          border       background   text         indicator
+# Colors         border       background   text         indicator    child_border
 client.focused   #e5e5e5      #666666      #b2b2b2      #999999      #4c4c4c
 client.unfocused #666666      #666666      #b2b2b2      #999999      #4c4c4c
 client.urgent    #666666      #666666      #b2b2b2      #999999      #4c4c4c
