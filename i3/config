@@ -68,30 +68,46 @@ set $ws10 "10"
 # Workspaces
 
 # Focus
-bindsym $mod+$ws1 workspace number $ws1;
-bindsym $mod+$ws2 workspace number $ws2;
-bindsym $mod+$ws3 workspace number $ws3;
-bindsym $mod+$ws4 workspace number $ws4;
-bindsym $mod+$ws5 workspace number $ws5;
-bindsym $mod+$ws6 workspace number $ws6;
-bindsym $mod+$ws7 workspace number $ws7;
-bindsym $mod+$ws8 workspace number $ws8;
-bindsym $mod+$ws9 workspace number $ws9;
+bindsym $mod+$ws1  workspace number $ws1;
+bindsym $mod+$ws2  workspace number $ws2;
+bindsym $mod+$ws3  workspace number $ws3;
+bindsym $mod+$ws4  workspace number $ws4;
+bindsym $mod+$ws5  workspace number $ws5;
+bindsym $mod+$ws6  workspace number $ws6;
+bindsym $mod+$ws7  workspace number $ws7;
+bindsym $mod+$ws8  workspace number $ws8;
+bindsym $mod+$ws9  workspace number $ws9;
 bindsym $mod+$ws10 workspace number $ws10;
 
 # Movement
-bindsym $mod+Shift+$ws1 move container to workspace number $ws1;
-bindsym $mod+Shift+$ws2 move container to workspace number $ws2;
-bindsym $mod+Shift+$ws3 move container to workspace number $ws3;
-bindsym $mod+Shift+$ws4 move container to workspace number $ws4;
-bindsym $mod+Shift+$ws5 move container to workspace number $ws5;
-bindsym $mod+Shift+$ws6 move container to workspace number $ws6;
-bindsym $mod+Shift+$ws7 move container to workspace number $ws7;
-bindsym $mod+Shift+$ws8 move container to workspace number $ws8;
-bindsym $mod+Shift+$ws9 move container to workspace number $ws9;
+bindsym $mod+Shift+$ws1  move container to workspace number $ws1;
+bindsym $mod+Shift+$ws2  move container to workspace number $ws2;
+bindsym $mod+Shift+$ws3  move container to workspace number $ws3;
+bindsym $mod+Shift+$ws4  move container to workspace number $ws4;
+bindsym $mod+Shift+$ws5  move container to workspace number $ws5;
+bindsym $mod+Shift+$ws6  move container to workspace number $ws6;
+bindsym $mod+Shift+$ws7  move container to workspace number $ws7;
+bindsym $mod+Shift+$ws8  move container to workspace number $ws8;
+bindsym $mod+Shift+$ws9  move container to workspace number $ws9;
 bindsym $mod+Shift+$ws10 move container to workspace number $ws10;
-
+ 
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
-bindsym $mod+Shift+e "i3-nagbar"
+bindsym $mod+Shift+e "i3-nagbar -t warning -m 'Exit i3?' -b 'Yes' 'i3-msg exit'"
+
+mode "resize" {
+
+  bindsym $left  resize shrink width  10 px or 10 ppt 
+  bindsym $right resize grow   width  10 px or 10 ppt 
+
+  bindsym $up    resize shrink height 10 px or 10 ppt 
+  bindsym $down  resize grow   height 10 px or 10 ppt 
+
+  bindsym r mode "default"
+}
+
+# Gaps
+gaps inner 9
+gaps outer 3
+
