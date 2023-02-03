@@ -31,9 +31,9 @@ gaps inner 9
 gaps outer 3
 
 # Colors         border       background   text         indicator    child_border
-client.focused   #e5e5e5      #000000      #b2b2b2      #999999      #4c4c4c
-client.unfocused #666666      #000000      #b2b2b2      #999999      #4c4c4c
-client.urgent    #666666      #000000      #b2b2b2      #999999      #4c4c4c
+client.focused   #e5e5e5      #000000      #cccccc      #999999      #4c4c4c
+client.unfocused #323232      #000000      #cccccc      #999999      #4c4c4c
+client.urgent    #ffffff      #000000      #cccccc      #999999      #4c4c4c
 
 # Settings
 focus_follows_mouse no
