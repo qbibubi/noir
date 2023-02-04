@@ -1,0 +1,3 @@
+killall polybar
+
+polybar mainscreen
