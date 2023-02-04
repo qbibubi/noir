@@ -2,8 +2,14 @@ pushd "$(dirname "$0")"
 
 configs=("i3" "picom" "polybar" "conky" "wallpapers")
 
-
 for config in "${configs[@]}"; do 
-  file -f $(realpath ~/".config/${config}") && echo "${config} config already exists" || ln -s $(realpath ./"${config}") $(realpath ~/".config/${config}")
+
+  if [ -e $(realpath ~/".config/${config}") ]
+  then
+    echo "${config} config already exists" 
+  else 
+    ln -s $(realpath ./"${config}") $(realpath ~/".config/${config}")
+  fi
+
 done
 
