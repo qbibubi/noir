@@ -15,4 +15,10 @@ A minimalist configuration for Arch Linux
   `#e5e5e5`
   `#ffffff`
 
+  `#b20000`
+  `#b2b200`
+  `#00b200`
+  `#00b2b2`
+  `#0000b2`
+  `#b200b2`
 
