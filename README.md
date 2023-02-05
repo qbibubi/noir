@@ -8,7 +8,7 @@ A minimalist configuration for Arch Linux
   `#000000` <img valign='bottom' src='https://readme-swatches.vercel.app/000000?style=round'/>
   `#191919` <img valign='bottom' src='https://readme-swatches.vercel.app/191919?style=round'/>
   `#323232` <img valign='bottom' src='https://readme-swatches.vercel.app/323232?style=round'/>
-  `#c4c4c4` <img valign='bottom' src='https://readme-swatches.vercel.app/c4c4c4?style=round'/>
+  `#4c4c4c` <img valign='bottom' src='https://readme-swatches.vercel.app/4c4c4c?style=round'/>
   `#666666` <img valign='bottom' src='https://readme-swatches.vercel.app/666666?style=round'/>
   `#717171` <img valign='bottom' src='https://readme-swatches.vercel.app/717171?style=round'/>
   `#999999` <img valign='bottom' src='https://readme-swatches.vercel.app/999999?style=round'/>

@@ -1,6 +1,6 @@
 pushd "$(dirname "$0")"
 
-configs=("i3" "picom" "polybar" "conky" "wallpapers")
+configs=("i3" "picom" "polybar" "conky" "wallpapers" "rofi")
 
 for config in "${configs[@]}"; do 
 
